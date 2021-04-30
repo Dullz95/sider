@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="testimonial">
+        <img
+          src="./image/e07b20ffd67e495e5f6325dd395d0ac7.png"
+          alt="pepe"
+          class="picture"
+        />
+        <div class="content">
+          <h2 class="head1">Jeandre Awood</h2>
+          <h3 class="head">Software developer</h3>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+            optio hic doloribus blanditiis, officiis vel minus quae adipisci
+            iure praesentium eligendi veniam, at tempora nemo eveniet id iusto.
+            Fugit, tenetur?</q
+          >
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="./image/141882-full.jpg" alt="pepe" class="picture" />
+        <div>
+          <div class="content">
+            <h2 class="head1">Justin Calvert</h2>
+            <h3 class="head">Software developer</h3>
+            <q
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis aspernatur nostrum impedit pariatur modi quis atque
+              magni ab laboriosam, natus nemo maxime esse, laudantium soluta
+              voluptate quasi, nesciunt distinctio! A.</q
+            >
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img
+          src="./image/_yJDklO6vlGrXCUaTbsPcwixvZlty4Sux9I0qwrk_6c.0.jpg"
+          alt="pepe"
+          class="picture"
+        />
+        <div>
+          <div class="content">
+            <h2 class="head1">Zoe S</h2>
+            <h3 class="head">Software developer</h3>
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              quidem, consequuntur placeat cum consequatur a molestias, maiores
+              doloribus saepe, maxime dolore. Magnam laudantium id omnis saepe
+              ab? Itaque, quam animi.</q
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
